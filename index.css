@@ -2,10 +2,51 @@ input {
     background-color: blanchedalmond;
     border: 2px solid black;
     border-radius: 10px;
+    width: 30%;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
 }
 button {
-    background-color: blanchedalmond;
-    border: 1.5px solid black;
     
+    background-color: rgb(181, 177, 172);
+    border: 1.5px solid black;
+    box-shadow: 2px 4px 6px black;
+    
+}
+
+img{
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+#dis{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.style {
+    background: linear-gradient(to right, rgb(235, 87, 102), rgb(245, 201, 55));
+    padding: 0px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 12px 14px 30px rgb(26, 102, 117);
+    color: black;
+}
+
+
+#dis2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.style2 {
+    background: linear-gradient(to right, rgb(77, 218, 211), rgb(72, 104, 220));
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 12px 14px 30px rgb(103, 147, 33);
+    color: black;
 }
 
