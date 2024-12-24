@@ -21,11 +21,11 @@ function search2(data){
     
 
 }
-
+// for weather
 function find(){
     let country = document.getElementById("nameBox").value;
 
-    let url2 = `http://api.weatherapi.com/v1/current.json?key=411656b57465492b81485708240312&q=${country}&aqi=no`;
+    let url2 = `https://api.weatherapi.com/v1/current.json?key=411656b57465492b81485708240312&q=${country}&aqi=no`;
     fetch(url2)
     .then(res2 => res2.json())
     .then(data2 => find2(data2));
